@@ -27,13 +27,10 @@ def findAllRecipes(recipes, ingredients, supplies):
 
 
 
-recipes = ["cake", "frosting", "layered_cake"]
-ingredients = [
-    ["flour", "sugar", "eggs"],        
-    ["sugar", "butter"],              
-    ["cake", "frosting", "strawberries"]  
-]
-supplies = ["flour", "sugar", "eggs", "butter", "strawberries"]
+recipes = ["bread", "sandwich", "burger"]
+ingredients = [["flour", "water"], ["bread", "ham"], ["bread", "meat", "lettuce"]]
+supplies = ["flour", "water", "ham", "meat", "lettuce"]
 
 print(findAllRecipes(recipes, ingredients, supplies))
 # Output example: ['bread', 'sandwich', 'burger']
+
